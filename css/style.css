@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headBtn {
+    padding: 1px
+}
+
+nav li a {
+    color: #000;
+    border-radius: 20px;
+    transition: background-color .25s ease, color .4s ease;
+    font-size: 12px;
+}
+
+nav li a:hover {
+    color: #fff;
+    background-color: rgb(49, 109, 195);
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    right: 50px;
+    margin-top: 6px;
+}
+
+.dropdown-menu>li>a:hover:after {
+    background-color: rgb(49, 109, 195);
+    color: #fff;
+}
+
+#intro {
+    margin: 50px 50px;
+}
+
+.shade {
+    box-shadow: 4px 5px 7px 2px #d1cccc;
+}
